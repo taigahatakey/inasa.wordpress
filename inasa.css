@@ -1,44 +1,48 @@
 .siteContent {
-    background: url(https://inasa.co.jp/wp-content/uploads/2020/07/tesukiwashi-pattern-08-1.jpg
-    ) repeat;
-    }
-    
-    .siteHeader {
-    background: url(https://inasa.co.jp/wp-content/uploads/2020/07/tesukiwashi-pattern-08-1.jpg) repeat;
-    }
-    
-    .siteFooter {
-    background: url(https://inasa.co.jp/wp-content/uploads/2020/07/tesukiwashi-pattern-08-1.jpg) repeat;
-    }
-    
-    h1.page-header_pageTitle{
-    display:none;
-    }
-    
-    
-    h1.page-header_pageTitle{
-    display:none;
-    }
-    
-    div.breadSection{
-    display:none;
-    }
-    
-    footer .sectionBox {
-    display:none !important;
-    }
-    
-    footer .copySection {
-    display:block !important;
-    border-top:none !important;
-    }
-    
-    footer .copySection p:nth-child(2) {
-    display:none !important;
-    }
-    
-    .vk-mobile-nav-menu-btn {
-        right:5px;
-        left:inherit;
-    }
-    
+background: url(https://inasa.co.jp/wp-content/uploads/2020/07/tesukiwashi-pattern-08-1.jpg
+) repeat;
+}
+
+.siteHeader {
+background: url(https://inasa.co.jp/wp-content/uploads/2020/07/tesukiwashi-pattern-08-1.jpg) repeat;
+}
+
+.siteFooter {
+background: url(https://inasa.co.jp/wp-content/uploads/2020/07/tesukiwashi-pattern-08-1.jpg) repeat;
+}
+
+h1.page-header_pageTitle{
+display:none;
+}
+
+
+h1.page-header_pageTitle{
+display:none;
+}
+
+
+div.breadSection{
+display:none;
+}
+
+.subSection{
+display:none !important;
+}
+
+footer .sectionBox {
+display:none !important;
+}
+
+footer .copySection {
+display:block !important;
+border-top:none !important;
+}
+
+footer .copySection p:nth-child(2) {
+display:none !important;
+}
+
+.vk-mobile-nav-menu-btn {
+	right:5px;
+	left:inherit;
+}
