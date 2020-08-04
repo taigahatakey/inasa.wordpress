@@ -1,18 +1,18 @@
+/*サイトの背景画像をメディアにある画像にする*/
 .siteContent {
 background: url(https://inasa.co.jp/wp-content/uploads/2020/07/tesukiwashi-pattern-08-1.jpg
 ) repeat;
 }
 
+/*サイトのヘッダーをメディアにある画像にする*/
 .siteHeader {
 background: url(https://inasa.co.jp/wp-content/uploads/2020/07/tesukiwashi-pattern-08-1.jpg) repeat;
 }
 
+
+/*サイトのフッターをメディアにある画像にする*/
 .siteFooter {
 background: url(https://inasa.co.jp/wp-content/uploads/2020/07/tesukiwashi-pattern-08-1.jpg) repeat;
-}
-
-h1.page-header_pageTitle{
-display:none;
 }
 
 
@@ -45,4 +45,30 @@ display:none !important;
 .vk-mobile-nav-menu-btn {
 	right:5px;
 	left:inherit;
+}
+
+
+/*サイトの文字をヒラギノ明朝に変更する*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif !important;
+}
+
+
+/*メニューをスクロールしても通常の背景画像が出るようにする*/
+.header_scrolled .gMenu_outer {
+    background: url(https://inasa.co.jp/wp-content/uploads/2020/07/tesukiwashi-pattern-08-1.jpg) repeat;
+}
+
+.vk-mobile-nav-menu-btn {
+    border-color: #333;
+    background: url(https://inasa.co.jp/wp-content/themes/lightning/inc/vk-mobile-nav/package/images/vk-menu-btn-black.svg) center 50% no-repeat, url(https://inasa.co.jp/wp-content/uploads/2020/07/tesukiwashi-pattern-08-1.jpg) no-repeat !important;
+}
+
+.vk-mobile-nav-menu-btn.menu-open {
+    border-color: #333;
+    background: url(https://inasa.co.jp/wp-content/themes/lightning/inc/vk-mobile-nav/package/images/vk-menu-close-black.svg) center 50% no-repeat, url(https://inasa.co.jp/wp-content/uploads/2020/07/tesukiwashi-pattern-08-1.jpg) no-repeat !important;
+}
+
+.vk-mobile-nav {
+    background: url(https://inasa.co.jp/wp-content/uploads/2020/07/tesukiwashi-pattern-08-1.jpg);
 }
